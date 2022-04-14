@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="as a user want to validate the web page Choucair Testing" skipped="0" tests="1" time="50.38" timestamp="2022-04-14 04:05:19"><testcase name="button to scroll to the top of the page"><failure message="Expected validate top page&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validate top page
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected validate top page
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+co.com.choucair.certification.testweb.stepdefinitions.historiaUsuarioStepDefinitios.theUserSeeTheTopPage(historiaUsuarioStepDefinitios.java:71)
+✽.the user see the top page(src/test/resources/features/historia_de_usuario.feature:12)
+</system-err></testcase></testsuite>

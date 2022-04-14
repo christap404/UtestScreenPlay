@@ -6,10 +6,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/h1.feature",
+@CucumberOptions(features = "src/test/resources/features/historia_de_usuario.feature",
         glue = "co.com.choucair.certification.testweb.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
-        tags = "")
+        tags = " @ES1")
 
-public class h1 {
+public class historiaUsuario {
 }
