@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/historia_de_usuario.feature",
         glue = "co.com.choucair.certification.testweb.stepdefinitions",
         snippets = SnippetType.CAMELCASE,
-        tags = " @ES1")
+        tags = "@ES")
 
 public class historiaUsuario {
 }

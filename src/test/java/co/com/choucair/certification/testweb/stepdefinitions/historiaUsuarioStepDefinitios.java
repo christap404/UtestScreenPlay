@@ -1,10 +1,13 @@
 package co.com.choucair.certification.testweb.stepdefinitions;
 
 import co.com.choucair.certification.testweb.quiestions.ValidateTopPage;
+import co.com.choucair.certification.testweb.quiestions.validateScrollButton;
 import co.com.choucair.certification.testweb.tasks.ClickButtonToTop;
 import co.com.choucair.certification.testweb.tasks.ScrollDownMainPage;
+import co.com.choucair.certification.testweb.tasks.clickScrollButton;
 import co.com.choucair.certification.testweb.utils.DriverWeb;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -41,14 +44,10 @@ public class historiaUsuarioStepDefinitios {
 
     }
 
-    @When("^the user see the button to scroll down \\(an arrow\\) and clicks on it$")
-    public void theUserSeeTheButtonToScrollDownAnArrowAndClicksOnIt() {
-
-    }
 
     @Then("^scroll down the section on the home page$")
     public void scrollDownTheSectionOnTheHomePage() {
-
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(validateScrollButton.validate()));
     }
 
     @When("^the user clicks on the Formacion button$")
@@ -69,5 +68,10 @@ public class historiaUsuarioStepDefinitios {
     @Then("^the user see the top page$")
     public void theUserSeeTheTopPage() {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidateTopPage.validate()));
+    }
+
+    @When("^the user click to scroll down button$")
+    public void theUserClicktoScrollDownButton() {
+        OnStage.theActorInTheSpotlight().attemptsTo(clickScrollButton.click());
     }
 }

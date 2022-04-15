@@ -1,5 +1,6 @@
 package co.com.choucair.certification.testweb.tasks;
 
+import co.com.choucair.certification.testweb.quiestions.ValidateTopPage;
 import co.com.choucair.certification.testweb.userinterfaces.mainPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -15,5 +16,9 @@ public class ScrollDownMainPage implements Task {
 
     public static ScrollDownMainPage scroll() {
         return Tasks.instrumented(ScrollDownMainPage.class);
+    }
+
+    public static ScrollDownMainPage validate() {
+        return new ScrollDownMainPage();
     }
 }

@@ -131,7 +131,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-04-2022 14:55</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-04-2022 19:18</span>
     <br style="clear:left"/>
 </div>
 
@@ -161,6 +161,12 @@
                             </div>
                         </td>
                         <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="9d8456e4be046c276c12e4e0b51bf55898cb025f68c14da8cbc7cc154ae06077.html">ES
+                                    (tag)</a>
+                                </span>
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -169,9 +175,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">button to scroll down the home page
+                                <span class="failing-color">button to scroll down the home page
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -188,10 +194,58 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected validate scroll buttonExpected: is (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.testweb.stepdefinitions.historiaUsuarioStepDefinitios.scrollDownTheSectionOnTheHomePage(historiaUsuarioStepDefinitios.java:50)<br />✽.scroll down the section on the home page(src/test/resources/features/historia_de_usuario.feature:18)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3662108213236322030.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="a9e5a641192a7e4c83a680fcaf82874dda015609b4c2a8f24c206eeaaacbc5ea.png" title=" Given the user are in home page" width="1440"/>
-                <img src="a9e5a641192a7e4c83a680fcaf82874dda015609b4c2a8f24c206eeaaacbc5ea.png" title=" user opens the https://www.choucairtesting.com/: <span class='success-color'>SUCCESS</span>" width="1440"/>
+                <img src="a9e5a641192a7e4c83a680fcaf82874dda015609b4c2a8f24c206eeaaacbc5ea.png" title=" user opens the https://www.choucairtesting.com/" width="1440"/>
+                <img src="2a37ca1639f60f4c2dc116f9b116985ae75c7199cea83dad694aa9036489ce0d.png" title=" user opens the https://www.choucairtesting.com/ (completed)" width="1440"/>
+                <img src="2a37ca1639f60f4c2dc116f9b116985ae75c7199cea83dad694aa9036489ce0d.png" title=" Given the user are in home page (completed)" width="1440"/>
+                <img src="ab701ede3f2841c0ee66736891f0f3cbae52d059e39bb6fc15a2f60bb02691eb.png" title=" When the user click to scroll down button" width="1440"/>
+                <img src="ab701ede3f2841c0ee66736891f0f3cbae52d059e39bb6fc15a2f60bb02691eb.png" title=" User click scroll button" width="1440"/>
+                <img src="ab701ede3f2841c0ee66736891f0f3cbae52d059e39bb6fc15a2f60bb02691eb.png" title=" user clicks on boton para bajar" width="1440"/>
+                <img src="ab701ede3f2841c0ee66736891f0f3cbae52d059e39bb6fc15a2f60bb02691eb.png" title=" User click scroll button (completed)" width="1440"/>
+                <img src="ab701ede3f2841c0ee66736891f0f3cbae52d059e39bb6fc15a2f60bb02691eb.png" title=" When the user click to scroll down button (completed)" width="1440"/>
+                <img src="ab701ede3f2841c0ee66736891f0f3cbae52d059e39bb6fc15a2f60bb02691eb.png" title=" Then scroll down the section on the home page" width="1440"/>
+                <img src="ab6679db9f7d5dc69a9928f14ccab298347183c9882699ba41106d5f8acfcac1.png" title=" Then validate scroll button: <span class='failing-color'>FAILURE</span>" width="1440"/>
             </div>
         </div>
 
