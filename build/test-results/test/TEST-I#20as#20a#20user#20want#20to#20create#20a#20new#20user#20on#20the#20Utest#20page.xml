@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="I as a user want to create a new user on the Utest page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-04T15:49:22" hostname="MacBook-Air-de-Christian.local" time="60.857">
+  <properties/>
+  <testcase name="create a new user" classname="I as a user want to create a new user on the Utest page" time="60.857"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 31551
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 04, 2022 10:49:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

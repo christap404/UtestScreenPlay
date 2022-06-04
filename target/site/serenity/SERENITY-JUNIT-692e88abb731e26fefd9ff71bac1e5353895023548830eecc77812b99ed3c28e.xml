@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="as a user want to validate the web page Choucair Testing" skipped="0" tests="2" time="42.32" timestamp="2022-04-14 07:18:13"><testcase name="button to scroll to the top of the page"/><testcase name="button to scroll down the home page"><failure message="Expected validate scroll button&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected validate scroll button
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;</failure><system-err>Expected validate scroll button
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;
-co.com.choucair.certification.testweb.stepdefinitions.historiaUsuarioStepDefinitios.scrollDownTheSectionOnTheHomePage(historiaUsuarioStepDefinitios.java:50)
-✽.scroll down the section on the home page(src/test/resources/features/historia_de_usuario.feature:18)
-</system-err></testcase></testsuite>
