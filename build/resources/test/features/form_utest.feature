@@ -9,7 +9,7 @@ Feature: I as a user want to create a new user on the Utest page
     When the user click Join Today
     And the user fill the Step one
       | name      | lastName | email           | month | day | year | idiom   |
-      | Christian | Tapias   | ddd21sss6@tkkyl.com | July  | 6   | 1992 | Spanish |
+      | Christian | Tapias   | ddd21sssk6@tkkyl.com | July  | 6   | 1992 | Spanish |
     And the user fill the step two
       | city | code   | country  |
       | Cali | 220022 | Colombia |

@@ -1,16 +1,12 @@
 package co.com.choucair.certification.utest.tasks;
 
-import co.com.choucair.certification.utest.iteractions.EnterDataStepOne;
+import co.com.choucair.certification.utest.interactions.EnterDataStepOne;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import co.com.choucair.certification.utest.models.InfoPersonal;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
 
 import java.util.List;
-
-import static co.com.choucair.certification.utest.userinterfaces.StepOne.*;
 
 public class CompletStepOne implements Task {
 

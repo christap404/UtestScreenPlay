@@ -1,4 +1,4 @@
-package co.com.choucair.certification.utest.iteractions;
+package co.com.choucair.certification.utest.interactions;
 
 import co.com.choucair.certification.utest.models.InfoPersonal;
 import net.serenitybdd.screenplay.Actor;
@@ -22,12 +22,12 @@ public class EnterDataStepTwo implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(info.get(0).getCity()).into(INPUT_CITY));
-        actor.attemptsTo(Enter.keyValues(Keys.ARROW_DOWN).into(INPUT_CITY));
-        actor.attemptsTo(Click.on(INPUT_COUNTRY));
-        actor.attemptsTo(Enter.theValue(info.get(0).getCountry()).into(ENTER_COUNTRY));
-        actor.attemptsTo(Enter.theValue(info.get(0).getCode()).into(INPUT_ZIP));
-        actor.attemptsTo(Click.on(BUTTON_NEXT));
+        actor.attemptsTo(Enter.theValue(info.get(0).getCity()).into(INPUT_CITY),
+                Enter.keyValues(Keys.ARROW_DOWN).into(INPUT_CITY),
+                Click.on(INPUT_COUNTRY),
+                Enter.theValue(info.get(0).getCountry()).into(ENTER_COUNTRY),
+                Enter.theValue(info.get(0).getCode()).into(INPUT_ZIP),
+                Click.on(BUTTON_NEXT));
     }
 
     public static EnterDataStepTwo complete(List<InfoPersonal> info) {

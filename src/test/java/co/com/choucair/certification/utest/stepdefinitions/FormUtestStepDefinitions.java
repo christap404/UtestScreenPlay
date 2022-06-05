@@ -1,7 +1,7 @@
 package co.com.choucair.certification.utest.stepdefinitions;
 
 import co.com.choucair.certification.utest.models.InfoPersonal;
-import co.com.choucair.certification.utest.quiestions.ValidateMessage;
+import co.com.choucair.certification.utest.questions.ValidateMessage;
 import co.com.choucair.certification.utest.tasks.*;
 import co.com.choucair.certification.utest.utils.DriverWeb;
 import cucumber.api.java.Before;

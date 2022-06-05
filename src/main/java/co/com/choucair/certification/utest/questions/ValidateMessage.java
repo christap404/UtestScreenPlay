@@ -1,4 +1,4 @@
-package co.com.choucair.certification.utest.quiestions;
+package co.com.choucair.certification.utest.questions;
 
 import co.com.choucair.certification.utest.userinterfaces.WelcomePage;
 import net.serenitybdd.screenplay.Actor;

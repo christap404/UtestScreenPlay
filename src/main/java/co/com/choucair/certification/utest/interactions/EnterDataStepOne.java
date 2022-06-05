@@ -1,4 +1,4 @@
-package co.com.choucair.certification.utest.iteractions;
+package co.com.choucair.certification.utest.interactions;
 
 import co.com.choucair.certification.utest.models.InfoPersonal;
 import net.serenitybdd.screenplay.Actor;
@@ -21,18 +21,18 @@ public class EnterDataStepOne implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(info.get(0).getName()).into(INPUT_FIRTS_NAME));
-        actor.attemptsTo(Enter.theValue(info.get(0).getLastName()).into(INPUT_LAST_NAME));
-        actor.attemptsTo(Enter.theValue(info.get(0).getEmail()).into(INPUT_EMAIL));
-        actor.attemptsTo(Click.on(LIST_MONTH));
-        actor.attemptsTo(Click.on(SELECT_MONTH.of(info.get(0).getMonth())));
-        actor.attemptsTo(Click.on(LIST_DAY));
-        actor.attemptsTo(Click.on(SELECT_DAY.of(info.get(0).getDay())));
-        actor.attemptsTo(Click.on(LIST_YEAR));
-        actor.attemptsTo(Click.on(SELECT_YEAR.of(info.get(0).getYear())));
-        actor.attemptsTo(Click.on(LIST_LANGUAGE));
-        actor.attemptsTo(Click.on(SELECT_LANGUAGE.of(info.get(0).getIdiom())));
-        actor.attemptsTo(Click.on(BUTTON_NEXT));
+        actor.attemptsTo(Enter.theValue(info.get(0).getName()).into(INPUT_FIRTS_NAME),
+                Enter.theValue(info.get(0).getLastName()).into(INPUT_LAST_NAME),
+                Enter.theValue(info.get(0).getEmail()).into(INPUT_EMAIL),
+                Click.on(LIST_MONTH),
+                Click.on(SELECT_MONTH.of(info.get(0).getMonth())),
+                Click.on(LIST_DAY),
+                Click.on(SELECT_DAY.of(info.get(0).getDay())),
+                Click.on(LIST_YEAR),
+                Click.on(SELECT_YEAR.of(info.get(0).getYear())),
+                Click.on(LIST_LANGUAGE),
+                Click.on(SELECT_LANGUAGE.of(info.get(0).getIdiom())),
+                Click.on(BUTTON_NEXT));
     }
 
     public static EnterDataStepOne complete(List<InfoPersonal> info) {
